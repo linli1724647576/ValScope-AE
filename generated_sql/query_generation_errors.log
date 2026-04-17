@@ -1,0 +1,26 @@
+# SQL Query Generation Error Log - 2026-04-16 22:34:49
+# Target Query Count: 1000
+
+[310/1000] Generation Failed:
+  Error Type: UnboundLocalError
+  Error Message: local variable 'valid_columns' referenced before assignment
+  Retry Count: 10
+
+[854/1000] Generation Failed:
+  Error Type: TypeError
+  Error Message: 'method' object is not iterable
+  Retry Count: 10
+
+=== Batch 1 Completed ===
+Batch Query Total: 1000
+Successfully Generated: 998
+Failed to Generate: 2
+Error Type Statistics: {'UnboundLocalError': 1, 'TypeError': 1}
+
+=== Final Statistics ===
+Target Query Count: 1000
+Successfully Generated: 999
+Failed to Generate: 1
+Generation Rate: 99.90%
+
+Generation Log Creation Time: 2026-04-16 22:34:49
