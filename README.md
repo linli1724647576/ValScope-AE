@@ -1,5 +1,16 @@
 # Valscope
 
+**Paper.**  This artifact accompanies the OSDI '26 paper: Li Lin, Liehang Chen, and Rongxin Wu, "ValScope: Value-Semantics-Aware Metamorphic Testing for Detecting Logical Bugs in DBMSs." USENIX Symposium on Operating Systems Design and Implementation (OSDI '26), 2026.
+
+```
+@inproceedings{lin:valscope,
+  title        = {{ValScope: Value-Semantics-Aware Metamorphic Testing for Detecting Logical Bugs in DBMSs.}},
+  author       = {Li Lin, Liehang Chen, and Rongxin Wu},
+  booktitle    = {Proceedings of the 20th USENIX Symposium on Operating Systems Design and Implementation (OSDI)},
+  year         = {2026},
+}
+```
+
 ValScope is a DBMS testing framework based on a unified SQL query approximation model that combines set-semantic and value-semantic reasoning. By generating, mutating, and verifying SQL queries, it effectively detects logical bugs in DBMSs. It supports multiple database dialects including MySQL, MariaDB, Percona, OceanBase, TiDB, and PolarDB.
 
 Up to now, we have found 67 logical bugs in MySQL, MariaDB, OceanBase, PERCONA, PolarDB, and TiDB,  57 of which have been confirmed by developers.
