@@ -17,31 +17,31 @@ Up to now, we have found 67 logical bugs in MySQL, MariaDB, OceanBase, PERCONA, 
 
 ## MySQL
 
-| ID   | Issue ID                                                     | Status    |
-| ---- | ------------------------------------------------------------ | --------- |
-| 1    | [118846](https://bugs.mysql.com/bug.php?id=118846)           | confirmed |
-| 2    | [119022](https://bugs.mysql.com/bug.php?id=119022)](https://bugs.mysql.com/bug.php?id=118846) | confirmed |
-| 3    | [119348](https://bugs.mysql.com/bug.php?id=118846)           | confirmed |
-| 4    | [119321](https://bugs.mysql.com/bug.php?id=118846)           | confirmed |
-| 5    | [119322](https://bugs.mysql.com/bug.php?id=118846)           | confirmed |
-| 6    | [119323](https://bugs.mysql.com/bug.php?id=118846)           | confirmed |
-| 7    | [119329](https://bugs.mysql.com/bug.php?id=119329)           | confirmed |
-| 8    | [119342](https://bugs.mysql.com/bug.php?id=119342)           | confirmed |
-| 9    | [119344](https://bugs.mysql.com/bug.php?id=119344)           | confirmed |
-| 10   | [119350](https://bugs.mysql.com/bug.php?id=119350)           | confirmed |
-| 11   | [119446](https://bugs.mysql.com/bug.php?id=119446)           | confirmed |
-| 12   | [119352](https://bugs.mysql.com/bug.php?id=119352)           | confirmed |
-| 13   | [119353](https://bugs.mysql.com/bug.php?id=119353)           | confirmed |
-| 14   | [119398](https://bugs.mysql.com/bug.php?id=119398)           | confirmed |
-| 15   | [119399](https://bugs.mysql.com/bug.php?id=119399)           | confirmed |
-| 16   | [119400](https://bugs.mysql.com/bug.php?id=119400)           | confirmed |
-| 17   | [119402](https://bugs.mysql.com/bug.php?id=119402)           | confirmed |
-| 18   | [119403](https://bugs.mysql.com/bug.php?id=119403)           | confirmed |
-| 19   | [119693](https://bugs.mysql.com/bug.php?id=119693)           | confirmed |
-| 20   | [119694](https://bugs.mysql.com/bug.php?id=119694)           | confirmed |
-| 21   | [119695](https://bugs.mysql.com/bug.php?id=119695)           | confirmed |
-| 22   | [119696](https://bugs.mysql.com/bug.php?id=119696)           | confirmed |
-| 23   | [119698](https://bugs.mysql.com/bug.php?id=119698)           | confirmed |
+| ID   | Issue ID                                           | Status    |
+| ---- | -------------------------------------------------- | --------- |
+| 1    | [118846](https://bugs.mysql.com/bug.php?id=118846) | confirmed |
+| 2    | [119022](https://bugs.mysql.com/bug.php?id=119022) | confirmed |
+| 3    | [119348](https://bugs.mysql.com/bug.php?id=118846) | confirmed |
+| 4    | [119321](https://bugs.mysql.com/bug.php?id=118846) | confirmed |
+| 5    | [119322](https://bugs.mysql.com/bug.php?id=118846) | confirmed |
+| 6    | [119323](https://bugs.mysql.com/bug.php?id=118846) | confirmed |
+| 7    | [119329](https://bugs.mysql.com/bug.php?id=119329) | confirmed |
+| 8    | [119342](https://bugs.mysql.com/bug.php?id=119342) | confirmed |
+| 9    | [119344](https://bugs.mysql.com/bug.php?id=119344) | confirmed |
+| 10   | [119350](https://bugs.mysql.com/bug.php?id=119350) | confirmed |
+| 11   | [119446](https://bugs.mysql.com/bug.php?id=119446) | confirmed |
+| 12   | [119352](https://bugs.mysql.com/bug.php?id=119352) | confirmed |
+| 13   | [119353](https://bugs.mysql.com/bug.php?id=119353) | confirmed |
+| 14   | [119398](https://bugs.mysql.com/bug.php?id=119398) | confirmed |
+| 15   | [119399](https://bugs.mysql.com/bug.php?id=119399) | confirmed |
+| 16   | [119400](https://bugs.mysql.com/bug.php?id=119400) | confirmed |
+| 17   | [119402](https://bugs.mysql.com/bug.php?id=119402) | confirmed |
+| 18   | [119403](https://bugs.mysql.com/bug.php?id=119403) | confirmed |
+| 19   | [119693](https://bugs.mysql.com/bug.php?id=119693) | confirmed |
+| 20   | [119694](https://bugs.mysql.com/bug.php?id=119694) | confirmed |
+| 21   | [119695](https://bugs.mysql.com/bug.php?id=119695) | confirmed |
+| 22   | [119696](https://bugs.mysql.com/bug.php?id=119696) | confirmed |
+| 23   | [119698](https://bugs.mysql.com/bug.php?id=119698) | confirmed |
 
 ## MariaDB
 
