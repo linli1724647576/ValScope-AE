@@ -1,8 +1,8 @@
-﻿# Mutation Operator Statistics
-Total number of operators: 25
+# Mutation Operator Statistics
+Total number of operators: 26
 Transforming C1 into C2 achieves the over-approximation; the inverse achieves the under-approximation.
 
-## Mutation Rule Index (rule1 ~ rule25)
+## Mutation Rule Index (rule1 ~ rule26)
 
 | Rule ID | Category | C1 | C2 |
 | ------ | -------- | -- | -- |
@@ -26,8 +26,9 @@ Transforming C1 into C2 achieves the over-approximation; the inverse achieves th
 | rule18 | Value-Semantic / Aggregation | COUNT(DISTINCT c) | COUNT(c) |
 | rule19 | Value-Semantic / Aggregation | AVG(c) | MAX(c) |
 | rule20 | Value-Semantic / Aggregation | MIN(c) | MAX(c) |
-| rule21 | Value-Semantic / Aggregation | VAR_SAMP(c) / STDDEV_SAMP(c) | STDDEV_SAMP(c) (c<1) / VAR_SAMP(c) (c>1) |
-| rule22 | Value-Semantic / Aggregation | SUM(c) | SUM(c*k) (k has the same sign as c) |
-| rule23 | Value-Semantic / Expression | expr | expr + k (k>0) |
-| rule24 | Value-Semantic / Expression | expr | expr * k (k has same sign as expr) |
-| rule25 | Value-Semantic / Expression | FUNC(c) (FUNC is monotonic) | FUNC(c*k) (k > 0) |
+| rule21 | Value-Semantic / Aggregation | VAR_SAMP(c)                 | STDDEV_SAMP(c) (c<1) |
+| rule22 | Value-Semantic / Aggregation | STDDEV_SAMP(c) | VAR_SAMP(c) (c>1) |
+| rule23 | Value-Semantic / Aggregation | SUM(c) | SUM(c*k) (k has the same sign as c) |
+| rule24 | Value-Semantic / Expression | expr | expr + k (k>0) |
+| rule25 | Value-Semantic / Expression | expr | expr * k (k has same sign as expr) |
+| rule26 | Value-Semantic / Expression | FUNC(c) (FUNC is monotonic) | FUNC(c*k) (k > 0) |
